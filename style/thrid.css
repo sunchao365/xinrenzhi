@@ -1,0 +1,122 @@
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+    background-color: rgb(73, 72, 72);
+    margin: 0em;
+}
+@media (min-width: 540px) {
+    body {
+      font: 3px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+   }
+}
+
+@media (min-width: 768px) {
+    body {
+      font: 6px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+   }
+}
+
+@media (min-width: 992px) {
+    body {
+   font: 11px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+    font: 16px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+}
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: rgb(145, 146, 134);
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    top: 0;
+    background-color: dimgray;
+}
+#h11{
+    margin-left: 20em;
+    color: wheat;
+}
+
+#photo1{
+    width: 100%;
+    height: 60.7em;
+    margin-bottom: 3em;
+}
+h2.zz1{
+    text-align: center;
+    font-size: 2.1em;
+    color: antiquewhite;
+}
+.he{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+}
+.he1{
+    display: inline-block;
+    margin-right: 4em;
+    width: 40em;
+}
+.he2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13em;
+    font-weight: 300;
+    color: wheat;
+    height: 1.5em;
+}
+.he3{
+    margin-left: 7em;
+    width: 40em;
+}
+.hr1{
+    height: 0.3em;
+    background-color: wheat;
+}
+.zz2{
+    font-size: 2em;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-left: 1.8em;
+    text-align: left;
+}
+
+#photo2{
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+
+
+#sc{
+    background-color: black;
+    height: 10em;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+}
+#sc1{
+    margin-left: 20em;
+    width: 55%;
+
+}
+ul{
+    list-style: none;
+    color: white;
+}

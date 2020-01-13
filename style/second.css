@@ -1,0 +1,147 @@
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+    background-color: dimgray;
+}
+@media (min-width: 540px) {
+    body {
+      font: 3px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+   }
+}
+
+@media (min-width: 768px) {
+    body {
+      font: 6px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+   }
+}
+
+@media (min-width: 992px) {
+    body {
+   font: 11px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+   margin: 0em;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+    font: 16px/ 1.5 Microsoft YaHei, Helvitica, Verdana, Arial, san-serif;
+}
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: rgb(145, 146, 134);
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    top: 0;
+    background-color: dimgray;
+}
+#h11{
+    margin-left: 20em;
+    color: wheat;
+}
+.box2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box21{
+    width: 70%;
+}
+.box3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40em;
+    width: 100%;
+}
+.box4{
+    display: flex;
+
+}
+#photo1{
+    margin: 0;
+    width: 100%;
+    max-height: 30%;
+}
+.photo2{
+    margin: 8em;
+    width: 45%;
+    height: auto;
+}
+#ig3{
+    width: 42%;
+    height: 80%;
+    margin-right: 5em;
+}
+.h2h{
+    font-size: 3.5em;
+    color: wheat;
+}
+.h2p{
+    font-size: 2.5em;
+    color: wheat;
+}
+.we{
+    font-size: 3.5em;
+    color: wheat;
+    text-align: right;
+}
+.sn{
+    font-size: 2.5em;
+    color: wheat;
+}
+.space{
+    height: 10em;
+    width: auto;
+    background-color: dimgray;;
+}
+.triangle{
+    width: 0;
+    border: 30px solid red;
+    border-color: transparent;
+    border-top-color: wheat;
+    margin: 0 auto;
+}
+.wee{
+    width: 70%;
+    margin-left: 10em;
+    margin-right: 3em;
+}
+#sc{
+    background-color: black;
+    height: 10em;
+    width: 100%;
+}
+#sc1{
+    margin-left: 20em;
+    width: 55%;
+
+}
+ul{
+    list-style: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+    #pagewrap{
+     width: 94%;
+     }
+     #content{
+     width: 65%;
+     }
+     #sidebar{
+     width: 30%;
+     }
+    }
+/* for 700px or less */
+@media screen and (max-width:700px) {
+    #content {
+     width: auto;
+     float: none;
+     }
+     #sidebar {
+     width: auto;
+     float: none;
+     }
+    }
+/* for 480px or less */
+@media screen and (max-width:480px) {
+    #header {
+     height: auto;
+     }
+     h1 {
+     font-size: 24px;
+     }
+     #sidebar {
+     display: none;
+     }
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: dimgray;
+    font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-family: FZGongYHJW-2;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 390px;
+    color: rgb(168, 137, 95);
+}
+a {
+    text-decoration: none;
+    margin-right: 70px;
+    margin-top: px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.abcd{
+    margin-top: 10px;
+}
+.abc{
+    color: aliceblue;
+}
+.abc:hover{
+    color: rgb(12, 14, 14) ;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    background-color: rgb(112, 99, 99);
+    top: 0px;
+}
+.we{
+    color: rgb(168, 137, 95);
+}
+
+.sn{
+    color: rgb(168, 137, 95);
+}
+
+.ig0{
+    height: 90px;
+}
+#ig1{
+    height: 180px;
+}
+#ig2 {
+    width: 750px;
+    height: 550px;
+    margin-left: 50px;
+}
+
+#ig3 {
+    width: 750px;
+    height: 550px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+    margin-left: 650px;
+}
+
+#ig4 {
+    width: 800px;
+    height: 550px;
+    margin-left: 50px;
+}
+
+.triangle{
+    width: 0;
+    border: 30px solid red;
+    border-color: transparent;
+    border-top-color: white;
+    margin: 0 auto;
+}
+
+#photo{
+    margin-left: 0;
+    width: 1655px;
+    height: 800px;
+}
+ 
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+#sc{
+    background-color: black;
+    height: 150px;
+    width: auto;
+}
